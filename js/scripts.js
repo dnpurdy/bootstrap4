@@ -13,3 +13,11 @@ $(document).ready(function(){
         }
     });
 });
+
+$("#login-btn").click(function(){
+    $("#loginModal").modal('show');
+});
+
+$("#reserve-btn").click(function(){
+    $("#reserveModal").modal('show');
+})
